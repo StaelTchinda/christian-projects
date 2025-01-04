@@ -1,25 +1,5 @@
 {
   "default": true,
-  "MD001": { "level": 2 }, // Checks for header levels, ensuring they increment by one level at a time.
-  "MD002": { "level": 2 }, // Ensures that the first header in the document is a top-level header.
-  "MD003": { "style": "atx" }, // Enforces the use of ATX style headers.
-  "MD004": { "style": "consistent" }, // Ensures consistent unordered list style.
-  "MD005": true, // Checks for inconsistent indentation for list items at the same level.
-  "MD007": { "indent": 2 }, // Ensures that list items are indented by 2 spaces.
-  "MD009": { "br_spaces": 2 }, // Ensures that there are no trailing spaces.
-  "MD010": true, // Ensures that there are no hard tabs.
-  "MD012": true, // Ensures that multiple consecutive blank lines are not present.
-  "MD013": { "line_length": 80 }, // Ensures that lines are at most 80 characters long.
-  "MD018": true, // Ensures that atx headers have a space after the hash.
-  "MD022": true, // Ensures that headers are surrounded by blank lines.
-  "MD025": { "level": 2 }, // Ensures that multiple top-level headers in the same document are not present.
-  "MD026": { "punctuation": ".,;:!" }, // Ensures that punctuation is present in headers.
-  "MD029": true, // Ensures that ordered list item prefix is one.
-  "MD031": true, // Ensures that fenced code blocks are surrounded by blank lines.
-  "MD032": true, // Ensures that lists are surrounded by blank lines.
-  "MD034": true, // Ensures that bare URLs are not used.
-  "MD040": true, // Ensures that fenced code blocks are used instead of indentation.
-  "MD041": true, // Ensures that first line in file is a top-level header.
   "customRules": [
     {
       "name": "table-links",
