@@ -45,7 +45,7 @@ This helps us maintain a clean and readable format across all our documentation.
    ```
 
 2. Run markdownlint on your markdown files:
-   
+
    ```sh
    markdownlint-cli2 "**/*.md"
    ```
