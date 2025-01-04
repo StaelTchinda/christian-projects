@@ -1,0 +1,8 @@
+{
+  "fix": true,
+  "customRules": [
+    "rules/readme/items-links.js",
+    "rules/readme/items-sorted-alphabetically.js",
+    "rules/readme/platform-mandatory.js"
+  ]
+}

@@ -2,9 +2,19 @@
 
 **Christian Projects** is a curated list of Christian projects.
 
-This repository is intended for developers, and so the only approved projects are open source projects, or APIs/services that could be useful to developers and are free to use (i.e. no fees). APIs that charge fees may be included if they offer a free level of access (e.g. 100 requests per day for free).
+This repository is intended for developers, and so the only approved projects
+are open source projects, or APIs/services that could be useful to developers
+and are free to use (i.e. no fees). APIs that charge fees may be included if
+they offer a free level of access (e.g. 100 requests per day for free).
 
-Please see [CONTRIBUTING](CONTRIBUTING.md) for guidelines on submitting a project or making any other changes.
+Please see [CONTRIBUTING](CONTRIBUTING.md) for guidelines on submitting
+a project or making any other changes.
+
+## Markdown Linting
+
+To ensure consistency in our markdown files, we use
+[markdownlint](https://github.com/DavidAnson/markdownlint). This
+helps us maintain a clean and readable format across all our documentation.
 
 ## Table of Contents
 
@@ -31,6 +41,7 @@ Project Name | Description | Languages | Frameworks | Supported Platforms
 [OpenBible](https://github.com/danzuep/OpenBible) | An open-source, cross platform Bible app for any public domain Bible in any language, written in C# MAUI for mobile and desktop, and a partial Blazor SPA for the web. | C# .NET | - | [Android](https://github.com/danzuep/OpenBible/releases/latest), [Web](https://danzuep.github.io/OpenBible/), any common platform.
 [Sword Drill](https://github.com/meichthys/sword_drill) | An application that displays verse text on screen when audio verse reference is spoken | Python | - | [Desktop](https://github.com/meichthys/sword_drill/releases)
 [Xiphos](https://github.com/crosswire/xiphos) | A Bible study tool written for Linux, UNIX, and Windows | Scheme | GTK | [Windows, Linux, Unix](https://xiphos.org/download/)
+Error Project | Dummy project to test linting | PHP | - | no platform
 
 ### Church Management
 
@@ -81,6 +92,5 @@ Project Name | Description | Languages | Frameworks | Supported Platforms
 Project Name | Description | Languages | Frameworks | Supported Platforms
 --- | --- | :-: | :-: | :-:
 [ArrowPrayer](https://github.com/ModularEnigma/ArrowPrayer) | A Discord bot to submit prayer requests for the community to pray for | JavaScript | - | [Discord](https://craftingforchrist.net/discord)
- |  |  |  |
 
 \* Projects marked with an asterisk have been archived or abandoned.
