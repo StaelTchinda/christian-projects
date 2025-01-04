@@ -41,6 +41,7 @@ Project Name | Description | Languages | Frameworks | Supported Platforms
 [OpenBible](https://github.com/danzuep/OpenBible) | An open-source, cross platform Bible app for any public domain Bible in any language, written in C# MAUI for mobile and desktop, and a partial Blazor SPA for the web. | C# .NET | - | [Android](https://github.com/danzuep/OpenBible/releases/latest), [Web](https://danzuep.github.io/OpenBible/), any common platform.
 [Sword Drill](https://github.com/meichthys/sword_drill) | An application that displays verse text on screen when audio verse reference is spoken | Python | - | [Desktop](https://github.com/meichthys/sword_drill/releases)
 [Xiphos](https://github.com/crosswire/xiphos) | A Bible study tool written for Linux, UNIX, and Windows | Scheme | GTK | [Windows, Linux, Unix](https://xiphos.org/download/)
+Error Project | Dummy project to test linting | PHP | - | no platform
 
 ### Church Management
 
