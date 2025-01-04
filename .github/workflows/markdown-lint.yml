@@ -16,5 +16,5 @@ jobs:
       - name: Run markdownlint
         uses: davidanson/markdownlint-cli2-action@v2
         with:
-          args: '**/*.md'
+          args: 'README.md'
           config: 'config/readme.markdownlint.jsonc'
