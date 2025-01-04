@@ -22,3 +22,23 @@ To add, remove, or change a _category_, please create an Issue or open a standal
 - All projects should be directly related to the Christian faith. This could be expanded to include, for example, the writings of Josephus, but would not include a todo app.
 - Code projects should be open source, but there are no license restrictions.
 - API and related projects should be non-commercial or at least have non-commercial components. For example, an API that provides a free tier of up to 100 requests per day would be allowed.
+
+## Markdown Linting Guidelines
+
+To ensure consistency in our markdown files, we use [markdownlint](https://github.com/DavidAnson/markdownlint). This helps us maintain a clean and readable format across all our documentation.
+
+### Using markdownlint
+
+1. Install markdownlint-cli2 globally using npm:
+   ```sh
+   npm install -g markdownlint-cli2
+   ```
+
+2. Run markdownlint on your markdown files:
+   ```sh
+   markdownlint-cli2 "**/*.md"
+   ```
+
+### Automatic Linting via GitHub Actions
+
+We have configured a GitHub Action to automatically run markdownlint on all pull requests. This ensures that all markdown files adhere to our linting guidelines before they are merged.

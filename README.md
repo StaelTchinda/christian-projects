@@ -6,6 +6,10 @@ This repository is intended for developers, and so the only approved projects ar
 
 Please see [CONTRIBUTING](CONTRIBUTING.md) for guidelines on submitting a project or making any other changes.
 
+## Markdown Linting
+
+To ensure consistency in our markdown files, we use [markdownlint](https://github.com/DavidAnson/markdownlint). This helps us maintain a clean and readable format across all our documentation.
+
 ## Table of Contents
 
 - [Bible](#bible)
